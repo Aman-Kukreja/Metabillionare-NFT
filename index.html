@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ------------CUSTOM CSS-------------- -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- ------------BOOTSTRAP-------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" href="./assets/image/png/favicon1.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>METABILLIONAIRE</title>
+</head>
+
+<body>
+    <!------------------HEADER----------------->
+    <header>
+        <div class="d-flex flex-column min-vh-100">
+            <div class="bg_color_black position-fixed top-0 w-100 z_index_99">
+
+                <div class="container">
+                    <nav class="d-flex justify-content-between py-2 align-items-center col_gap_20px">
+                        <a href="#">
+                            <img src="./assets/image/png/metabillionaire_logo.png" alt="metabillionaire logo"
+                                class="mb_logo">
+                        </a>
+                        <ul class="align-items-center d-none d-xl-flex">
+                            <li><a href="#" class="">story</a></li>
+                            <li><a href="#" class="">roadmap</a></li>
+                            <li><a href="#team-section" class="">teams</a></li>
+                            <li><a href="#" class="">contact</a></li>
+                        </ul>
+                        <div class="d-flex align-items-center col_gap_20px d-none d-md-flex">
+                            <a href="#"><img src="./assets/image/png/twitter_logo.png" alt="twitter logo"
+                                    class="nav_logos"></a>
+                            <a href="#"><img src="./assets/image/png/discord_logo.png" alt="discord logo"
+                                    class="nav_logos"></a>
+                            <a href="#"><img src="./assets/image/png/insta_logo.png" alt="insta logo"
+                                    class="nav_logos"></a>
+                            <div><a href=" #" class="page_btn">view on opensea</a></div>
+                        </div>
+                        <a href="#" class="d-xl-none" onclick="OpenNav()" id="open_btn">
+                            <div class="menu_icon d-flex flex-column justify-content-between">
+                                <span class=""></span>
+                                <span class=""></span>
+                                <span class=""></span>
+                            </div>
+                        </a>
+
+                    </nav>
+                </div>
+            </div>
+
+            <div class="navbar_overlay mt_N100 d-xl-none pb-5">
+                <ul class="align-items-center d-flex flex-column">
+                    <li><a href="#" class="">story</a></li>
+                    <li><a href="#" class="">roadmap</a></li>
+                    <li><a href="#" class="">teams</a></li>
+                    <li><a href="#" class="">contact</a></li>
+                </ul>
+                <div class="align-items-center col_gap_20px d-md-none d-flex justify-content-center mt-4">
+                    <a href="#"><img src="./assets/image/png/twitter_logo.png" alt="twitter logo" class="nav_logos"></a>
+                    <a href="#"><img src="./assets/image/png/discord_logo.png" alt="discord logo" class="nav_logos"></a>
+                    <a href="#"><img src="./assets/image/png/insta_logo.png" alt="insta logo" class="nav_logos"></a>
+                </div>
+                <div class="text-center mt-4 d-md-none"><a href=" #" class="page_btn">view on opensea</a>
+                </div>
+            </div>
+
+            <div class="hero_bg_image flex-grow-1">
+            </div>
+        </div>
+    </header>
+
+    <!--------------MAIN SECTION---------------->
+    <main>
+        <!--------------SECTION-1---------------->
+        <section>
+            <div class="bg-black py-5 mt_N1px overflow_x">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="text-uppercase fs_md fw_bold color_white fs_md ff_Hanson">project<span
+                                class="d-block color_white_smoke">explanation</span>
+                        </h2>
+                        <p class="text-uppercase mt-3 fw_bold color_white_smoke fs_sm ff_play">the world's first
+                            entrepreneur
+                            nft</p>
+                        <div class="animation_fade_in" data-aos="fade-right" data-aos-easing="ease"
+                            data-aos-duration="800">>
+                            <p class="max_w_700px mx-auto color_Dark_gray fs_sm mt-3 ff_Roboto fw_regular"><span
+                                    class="fw_bold">METABILLIONAIRE</span>
+                                represents a
+                                collection of 7,777 unique
+                                billionaires
+                                categorized by level of
+                                rarity and generated with
+                                hundreds of elements.
+                                <span class="fw_bold">METABILLIONAIRE</span> are stored as ERC-721 tokens on the
+                                Ethereum
+                                blockchain and hosted on an
+                                interplanetary file system
+                                (IPFS).
+                            </p>
+                            <p class="max_w_700px mx-auto color_Dark_gray fs_sm mt-3 ff_Roboto">Our mission is to
+                                unite
+                                <span class="fw_bold">METABILLIONAIRE</span>
+                                from all
+                                around the
+                                world; connecting, learning,
+                                growing, and giving back with
+                                one another.
+                            </p>
+                        </div>
+                        <img src="./assets/image/png/hero-gif.gif" alt="person rotating" class="hero_gif mt-3">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--------------SECTION-2---------------->
+        <section>
+            <div class="bg-black mt_N1px overflow_x_hidden">
+                <div class="container">
+
+                    <div class="row py-5 justify-content-center">
+                        <div class="col-lg-4 col-12 col-sm-7">
+                            <img src="./assets/image/png/mb_invent_holders.png" alt="sorry image not available"
+                                class="w-100 b_radius_18px">
+                        </div>
+                        <div class="col-lg-8 col-12">
+                            <article class="position-sticky top_21 ps-lg-5 text-center text-lg-start">
+                                <h2 class="fs_md fw_semibold color_white ff_Hanson" id="hello"
+                                    data-aos="zoom-out-rightp" data-aos-easing="linear" data-aos-duration="400">
+                                    LIFETIME
+                                    MASTERMIND</h2>
+                                <div class="fs_sm color_Light_Slate_Grey fw_regular mt-4 ff_Roboto">
+                                    <p>By purchasing a rare collectible METABILLIONAIRE NFT, you will gain lifetime
+                                        access
+                                        to
+                                        international holder events.</p>
+                                    <p class="mt-2">Our community prides itself on MASTERMIND businessmen and
+                                        entrepreneurs from many
+                                        different fields and industries.
+                                    </p>
+                                    <p class="mt-2">We are our greatest asset. Your network is your net worth.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div
+                        class="d-flex align-items-start justify-content-md-around justify-content-center justify-content-sm-between color_white py-5 gap-5 flex-wrap text-center text-sm-start">
+                        <div class="fw_bold fs_md ff_Hanson">
+                            <p>OVERALL<span class="d-block">STATS</span></p>
+                        </div>
+
+                        <div>
+                            <p class="fw_bold fs_mini ff_Roboto">CURRENT LOWER PRICE <strong
+                                    class="d-block fs_md mt-2 ff_Hanson">0.26
+                                    ETH</strong>
+                                <span class="d-block fs_mini color_Light_Slate_Grey">(18/02/2022)</span> <span
+                                    class="d-block fs_mini fw_bold mt-5">TOTAL
+                                    VALUE OF ALL SALES</span> <strong
+                                    class="d-block fs_md mt-2 ff_Hanson">+$10'000'000</strong><span
+                                    class="d-block fs_mini color_Light_Slate_Grey">(18/02/2022)</span>
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="fw_bold fs_mini">NUMBER OF SALES <strong
+                                    class="d-block fs_md mt-2 ff_Hanson">6,322</strong>
+                                <span class="d-block fs_mini color_Light_Slate_Grey">(18/02/2022)</span> <span
+                                    class="d-block mt-5 fs_mini fw_bold">HIGHEST
+                                    SALE</span>
+                                <strong class="d-block fs_md mt-2 ff_Hanson">10 ETH</strong><span
+                                    class="d-block fs_mini color_Light_Slate_Grey">($40,322)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------SECTION-3---------------->
+        <section>
+            <div class="bg_color_black py-5 mt_N1px">
+                <div class="container">
+                    <h2 class="fs_md fw_bold ff_Hanson color_white text-center" data-aos="zoom-in-up"
+                        data-aos-duration="400">BIGGEST SALES</h2>
+
+                    <div class="row pt-4 justify-content-xl-between justify-content-center">
+                        <div class="text-center col-auto d-flex flex-column">
+                            <img src="./assets/image/png/img_2098.png" alt="sorry image not available"
+                                class="w_200px b_radius_18px">
+                            <strong class="fw_bold color_white ff_Hanson fs_mini mt-2">#2098</strong>
+                            <p class="color_Light_Slate_Grey fs_mini ff_Roboto">10 ETH ($40,322)</p>
+                        </div>
+
+                        <div class="text-center col-auto d-flex flex-column">
+                            <img src="./assets/image/png/img_6795.png" alt="sorry image not available"
+                                class="w_200px b_radius_18px">
+                            <strong class="fw_bold color_white ff_Hanson fs_mini mt-2">#6795</strong>
+                            <p class="color_Light_Slate_Grey fs_mini ff_Roboto">9.99 ETH ($40,610)</p>
+                        </div>
+
+                        <div class="text-center col-auto d-flex flex-column">
+                            <img src="./assets/image/png/img_6992.png" alt="sorry image not available"
+                                class="w_200px b_radius_18px">
+                            <strong class="fw_bold color_white ff_Hanson fs_mini mt-2">#6992</strong>
+                            <p class="color_Light_Slate_Grey fs_mini ff_Roboto">6 ETH ($24,214)</p>
+                        </div>
+
+                        <div class="text-center col-auto d-flex flex-column">
+                            <img src="./assets/image/png/img_1834.jpeg" alt="sorry image not available"
+                                class="w_200px b_radius_18px">
+                            <strong class="fw_bold color_white ff_Hanson fs_mini mt-2">#1834</strong>
+                            <p class="color_Light_Slate_Grey fs_mini ff_Roboto">5.95 ETH ($24,162)</p>
+                        </div>
+
+                        <div class="text-center col-auto d-flex flex-column">
+                            <img src="./assets/image/png/img_5450.png" alt="sorry image not available"
+                                class="w_200px b_radius_18px">
+                            <strong class="fw_bold color_white ff_Hanson fs_mini mt-2">#5450</strong>
+                            <p class="color_Light_Slate_Grey fs_mini ff_Roboto">5.9ETH ($22,301)</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row pt-3 justify-content-xl-between justify-content-center gap-4 gap-xl-0">
+                        <div class="text-center col-auto d-flex flex-column">
+                            <img src="./assets/image/png/image_1312.png" alt="sorry image not available"
+                                class="b_radius_18px w_200px">
+                            <strong class="fw_bold color_white  ff_Hanson mt-2 fs_mini">#1312</strong>
+                            <p class="color_Light_Slate_Grey fs_mini ff_Roboto">5.43 ETH ($23,569))</p>
+                        </div>
+
+                        <div class="text-center col-auto d-flex flex-column">
+                            <img src="./assets/image/png/image_7703.png" alt="sorry image not available"
+                                class="b_radius_18px w_200px">
+                            <strong class="fw_bold color_white  ff_Hanson mt-2 fs_mini">#7703</strong>
+                            <p class="color_Light_Slate_Grey fs_mini ff_Roboto">5.25 ETH ($19,683)</p>
+                        </div>
+
+                        <div class="text-center col-auto d-flex flex-column">
+                            <img src="./assets/image/png/image_4530.png" alt="sorry image not available"
+                                class="b_radius_18px w_200px">
+                            <strong class="fw_bold color_white  ff_Hanson mt-2 fs_mini">#4530</strong>
+                            <p class="color_Light_Slate_Grey fs_mini ff_Roboto">5 ETH ($13,088)</p>
+                        </div>
+
+                        <div class="text-center col-auto d-flex flex-column">
+                            <img src="./assets/image/png/image_6084.png" alt="sorry image not available"
+                                class="b_radius_18px w_200px">
+                            <strong class="fw_bold color_white  ff_Hanson mt-2 fs_mini">#6084</strong>
+                            <p class="color_Light_Slate_Grey fs_mini ff_Roboto">5 ETH ($20,312)</p>
+                        </div>
+
+                        <div class="text-center col-auto d-flex flex-column">
+                            <img src="./assets/image/png/image_2770.png" alt="sorry image not available"
+                                class="b_radius_18px w_200px">
+                            <strong class="fw_bold color_white  ff_Hanson mt-2 fs_mini">#2770</strong>
+                            <p class="color_Light_Slate_Grey fs_mini ff_Roboto">5 ETH ($18,791)</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------SECTION-4---------------->
+        <section>
+            <div class="bg_color_black mt_N1px py-5">
+                <div class="container">
+                    <h2 class="fs_md fw_bold ff_Hanson color_white text-center" data-aos="zoom-in-up"
+                        data-aos-duration="400">ROADMAP</h2>
+
+                    <div class="row py-5">
+                        <div class="col-lg-6 col-12">
+
+                            <div class="d-flex align-items-start gap-lg-5 gap-3 gap-sm-4">
+                                <div class="roadmap_logos d-flex align-items-center justify-content-center ">
+                                    <img src="./assets/image/png/power_icon.png" alt="power icon"
+                                        class="roadmap_logo_imgs">
+                                </div>
+                                <div>
+                                    <h2 class="fs_sm color_white fw_bold ff_poppins">WELCOME, METABILLIONAIRES</h2>
+                                    <p class="color_Light_Slate_Grey fw_regular ff_Roboto fs_sm"> Welcome to our
+                                        community. Becoming a
+                                        <span class="fw_bold ff_poppins">METABILLIONAIRE</span> owner
+                                        introduces you to a <span class="fw_bold ff_poppins">PRIVATE
+                                            MASTERMIND</span>
+                                        level of elite entrepreneurs.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex  align-items-start gap-lg-5 gap-3 gap-sm-4 fs_sm mt-3">
+                                <div class="roadmap_logos d-flex align-items-center justify-content-center ">
+                                    <img src="./assets/image/png/bulb_icon.png" alt="bulb icon"
+                                        class="roadmap_logo_imgs">
+                                </div>
+                                <div>
+                                    <h2 class="fs_sm color_white fw_bold ff_poppins">THE METABILLIONAIRE OPPORTUNITY
+                                    </h2>
+                                    <p class="color_Light_Slate_Grey fw_regular ff_Roboto fs_sm">By being a
+                                        <span class="fw_bold ff_poppins">METABILLIONAIRE holder</span>, you will
+                                        have
+                                        access to connect, learn, and grow from real businessmen and entrepreneurs.
+                                        They come from all horizons : <span class="fw_bold ff_poppins">REAL ESTATE -
+                                            WATCH - E-COMMERCE-STARTUP -STOCKS -
+                                            CRYPTO - NFTs</span>
+                                        You will be introduced to exclusive opportunities such as IDOs, ICOs, and
+                                        other
+                                        non-traditional investment strategies.
+                                        We are organizing EVENTS located in: Dubai, Los Angeles, New York. Entry
+                                        will be
+                                        FREE FOR ALL HOLDERS.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start gap-lg-5 gap-3 gap-sm-4 fs_sm mt-3">
+                                <div class="roadmap_logos d-flex align-items-center justify-content-center ">
+                                    <img src="./assets/image/png/charity_icon.png" alt="charity icon"
+                                        class="roadmap_logo_imgs">
+                                </div>
+                                <div>
+                                    <h2 class="fs_sm color_white fw_bold ff_poppins">METABILLIONAIRE CHARITY</h2>
+                                    <p class="color_Light_Slate_Grey fw_regular ff_Roboto fs_sm">We believe in
+                                        abundance
+                                        and the responsibility to give back to others.
+                                        Our first project involves providing over $150K to build Schools and Water
+                                        Wells
+                                        in
+                                        Africa.
+                                        We are setting a model and precedence of community-driven charity that will
+                                        change
+                                        the
+                                        world.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12 mt-3 mt-lg-0">
+
+                            <div class="d-flex align-items-start gap-lg-5 gap-3 gap-sm-4">
+                                <div class="roadmap_logos d-flex align-items-center justify-content-center ">
+                                    <img src="./assets/image/png/dollar_icon.png" alt="dollar icon"
+                                        class="roadmap_logo_imgs">
+                                </div>
+                                <div>
+                                    <h2 class="fs_sm color_white fw_bold ff_poppins">THE HOLDERS' REWARDS</h2>
+                                    <p class="color_Light_Slate_Grey fw_regular ff_Roboto fs_sm">
+                                        Those who believe in the project and it's mission are the most important to
+                                        us.
+                                    </p>
+                                    <p class="color_Light_Slate_Grey fw_regular ff_Roboto fs_sm mt-2">
+                                        We will constantly seek new, unique, and interesting methods to reward both
+                                        early and new holders. Lifetime access to
+                                        mastermind events, merchandise as well as digital and physical gifts are
+                                        only
+                                        just the beginning. Check out our Discord,
+                                        it's always filled with surprises!
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex  align-items-start gap-lg-5 gap-3 gap-sm-4 fs_sm mt-3">
+                                <div class="roadmap_logos d-flex align-items-center justify-content-center ">
+                                    <img src="./assets/image/png/bank_icon.png" alt="bank icon"
+                                        class="roadmap_logo_imgs">
+                                </div>
+                                <div>
+                                    <h2 class="fs_sm color_white fw_bold ff_poppins">METABILLIONAIRE FUND CREATION
+                                    </h2>
+                                    <p class="color_Light_Slate_Grey fw_regular ff_Roboto fs_sm">
+                                        Every 3 months, we will be investing $50,000 to $500,000 USD each in 2 of
+                                        our
+                                        HOLDERS' projects.
+                                        Our members will choose the projects we are going to invest in (DAO).
+                                        Our members will also have the possibility to invest.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-start gap-lg-5 gap-3 gap-sm-4 fs_sm mt-3">
+                                <div class="roadmap_logos d-flex align-items-center justify-content-center ">
+                                    <img src="./assets/image/png/rocket_icon.png" alt="rocket icon"
+                                        class="roadmap_logo_imgs">
+                                </div>
+                                <div>
+                                    <h2 class="fs_sm color_white fw_bold ff_poppins">METAVERSE</h2>
+                                    <p class="color_Light_Slate_Grey fw_regular ff_Roboto fs_sm">
+                                        In business, you either adapt or die.
+                                        The <span class="fw_bold ff_poppins">METAVERSE</span> is <span
+                                            class="fw_bold ff_poppins">REAL</span>, and all of its infinite
+                                        possibilities are unignorable.
+                                        As soon as we sold out of public mint, we put our money where our mouth is
+                                        by
+                                        immediately purchasing SANDBOX land to
+                                        begin development of the <span class="fw_bold ff_poppins">METABILLIONAIRE
+                                            HQ</span>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row py-5 flex-column-reverse flex-lg-row">
+                        <div class="col-lg-5 col-12 mt-3 mt-lg-0 min_vh_80 min_h_unset_lg">
+                            <article class="ps-xl-5 position-sticky top_21 text-center text-lg-start">
+                                <h2 class="color_white fs_md ff_Hanson fw_bold" data-aos="fade-right"
+                                    data-aos-easing="ease" data-aos-duration="500">CHARITY</h2>
+                                <div class="color_Light_Slate_Grey fs_sm fw_regular ff_Roboto">
+                                    <p class="mt-3">Everyone has once dreamt of changing the <span
+                                            class="fw_bold ff_poppins">WORLD</span>, but <span
+                                            class="fw_bold ff_poppins">METABILLIONAIRE</span>
+                                        are
+                                        not only
+                                        <span class="fw_bold ff_poppins">DREAMERS</span>,
+                                        we are <span class="fw_bold ff_poppins">DOERS</span>.
+                                    </p>
+                                    <p class="mt-3">As a proud partner of Oumma Sans Frontieres, <span
+                                            class="fw_bold ff_poppins">we launched 20 Water
+                                            Wells</span>
+                                        in different
+                                        countries throughout <span class="fw_bold ff_poppins">Africa</span>.
+                                    </p>
+                                    <p class="mt-3">
+                                        We are also currently working on the launch of the <span
+                                            class="fw_bold ff_poppins">METABILLIONAIRE</span>
+                                        SCHOOL.
+                                    </p>
+                                    <p class="mt-3">
+                                        We are so grateful to have the opportunity to provide education and
+                                        resources to
+                                        the
+                                        less
+                                        fortunate.
+                                    </p>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-7 col-12">
+                            <img src="./assets/image/png/charity_image.jpg" alt="charity image"
+                                class="w-100 b_radius_18px">
+                        </div>
+                    </div>
+
+                    <div class="row py-5 justify-content-center">
+                        <div class="col-lg-4 col-12">
+                            <img src="./assets/image/png/staking_image.png" alt="staking image"
+                                class="w-100 b_radius_18px">
+                        </div>
+
+                        <div class="col-lg-8 col-12 min_vh_80 min_h_unset_lg mt-3 mt-lg-0">
+                            <article class="position-sticky top_21 ps-xl-5 text-center text-lg-start">
+                                <h2 class="color_white fs_md ff_Hanson fw_bold" data-aos="zoom-in-left"
+                                    data-aos-easing="linear" data-aos-duration="500">STAKING</h2>
+                                <div class="color_Light_Slate_Grey fs_sm fw_regular ff_Roboto">
+                                    <p class="mt-3"><span class="fw_bold ff_poppins">METABILLIONAIRE</span> are
+                                        visionaries, seeking to completely change the
+                                        landscape of traditional investments and
+                                        business-minded focus groups.</p>
+                                    <p class="mt-3">As a token of appreciation for trusting us with executing this
+                                        vision, we will offer the opportunity to stake your
+                                        <span class="fw_bold ff_poppins">METABILLIONAIRE</span> in order to earn
+                                        redeemable tokens that can be used to access a
+                                        variety of special events, receive
+                                        exclusive physical and digital gifts and merchandise, as well as, upgrade
+                                        the
+                                        current-state of your art collection
+                                    </p>
+                                    <p class="mt-3">
+                                        Who knows what our next utility could be ?
+                                    </p>
+                                    <p class="mt-3">
+                                        There's always more being announced on our Discord.
+                                    </p>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="row py-5 flex-column-reverse flex-lg-row align-items-center">
+                        <div class="col-lg-8 col-12 min_vh_80 min_h_unset_lg mt-3 mt-lg-0">
+                            <article class="ps-xl-5 position-sticky top_21 text-center text-lg-start">
+                                <h2 class="color_white fs_md ff_Hanson fw_bold" data-aos="fade-right"
+                                    data-aos-easing="ease" data-aos-duration="500">METAVERSE</h2>
+                                <div class="color_Light_Slate_Grey fs_sm fw_regular ff_Roboto">
+                                    <p class="mt-3">METABILLIONAIRE is ready for the METAVERSE, but is the METAVERSE
+                                        ready for METABILLIONAIRE ?
+                                    </p>
+                                    <p class="mt-3">As a proud partner of Oumma Sans Frontieres, <span
+                                            class="fw_bold ff_poppins">we
+                                            launched 20 Water
+                                            Wells</span>
+                                        in different
+                                        countries throughout <span class="fw_bold ff_poppins">Africa</span>.
+                                    </p>
+                                    <p class="mt-3">
+                                        We are also currently working on the launch of the <span
+                                            class="fw_bold ff_poppins">METABILLIONAIRE</span>
+                                        SCHOOL.
+                                    </p>
+                                    <p class="mt-3">
+                                        We are so grateful to have the opportunity to provide education and
+                                        resources to
+                                        the
+                                        less
+                                        fortunate.
+                                    </p>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-7 col-12">
+                            <img src="./assets/image/png/metaverse_image.png" alt="metaverse image"
+                                class="w-100 b_radius_18px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------SECTION-5---------------->
+        <section>
+            <div class="bg_color_black py-5 mt_N1px">
+                <div class="container">
+                    <h2 class="text-center color_white fs_md ff_Hanson fw_bold" data-aos="zoom-in-up">RARE <span
+                            class="d-block">METABILLIONAIRES</span>
+                    </h2>
+
+                    <div class="position-relative px_12px" data-aos="zoom-in-up" data-aos-duration="1200">
+
+                        <svg version=" 1.1" id="Layer_1" class="position-absolute z_index_20 w-100 top-0 start-0"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                            y="0px" viewBox="0 0 804 50.167" enable-background="new 0 0 804 50.167"
+                            xml:space="preserve">
+                            <path fill="#000000"
+                                d="M804,0v16.671c0,0-204.974,33.496-401.995,33.496C204.974,50.167,0,16.671,0,16.671V0H804z">
+                            </path>
+                        </svg>
+
+                        <svg version="1.1" id="Layer_1"
+                            class="position-absolute bottom-0 z_index_20 rotate_180deg w-100 start-0"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                            y="0px" viewBox="0 0 804 50.167" enable-background="new 0 0 804 50.167"
+                            xml:space="preserve">
+                            <path fill="#000000"
+                                d="M804,0v16.671c0,0-204.974,33.496-401.995,33.496C204.974,50.167,0,16.671,0,16.671V0H804z">
+                            </path>
+                        </svg>
+
+                        <div class="slider" id="slider">
+                            <div class="slides">
+                                <img src="./assets/image/png/sleek_slider_img1.jpeg" alt="sorry image not available"
+                                    class="w-100">
+                            </div>
+
+                            <div class="slides">
+                                <img src="./assets/image/png/sleek_slider_img2.jpeg" alt="sorry image not available"
+                                    class="w-100">
+                            </div>
+
+                            <div class="slides">
+                                <img src="./assets/image/png/sleek_slider_img3.jpeg" alt="sorry image not available"
+                                    class="w-100">
+                            </div>
+
+                            <div class="slides">
+                                <img src="./assets/image/png/sleek_slider_img4.jpeg" alt="sorry image not available"
+                                    class="w-100">
+                            </div>
+
+                            <div class="slides">
+                                <img src="./assets/image/png/sleek_slider_img5.jpeg" alt="sorry image not available"
+                                    class="w-100">
+                            </div>
+
+                            <div class="slides">
+                                <img src="./assets/image/png/sleek_slider_img6.jpeg" alt="sorry image not available"
+                                    class="w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------SECTION-6---------------->
+        <section id="team-section">
+            <div class="bg_color_black py-5 mt_N1px">
+                <div class="container">
+
+                    <div class="row pt-lg-5">
+
+                        <div class="col-lg-6 col-12">
+                            <article class="position-sticky top_21">
+                                <h2 class="color_white fs_md fw_bold ff_Hanson" data-aos="fade-right"
+                                    data-aos-duration="500" data-aos-easing="ease">CELEBRITY <span
+                                        class="d-block">COLLABORATIONS</span>
+                                </h2>
+                                <div class="color_Light_Slate_Grey fs_sm fw_regular ff_Roboto mt-3">
+                                    <p>We are always looking for mutually beneficial partnerships and
+                                        collaborations.
+                                    </p>
+                                    <p>If you are a company, celebrity, or influencer interested in collaborating
+                                        with
+                                        us,
+                                        shoot
+                                        us an email at :
+                                        <a href="#" class="color_Mischka">marketing@metabillionaire.com</a>
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <div class="row color_white fs_sm fw_bold ff_poppins">
+                                <div class="col-sm-6 col-12 pb-4">
+                                    <img src="./assets/image/png/MARQUINHOS.jpeg" alt="sorry image not available"
+                                        class="w-100 b_radius_18px">
+                                    <strong class="mt-2 d-inline-block">MARQUINHOS</strong>
+                                </div>
+                                <div class="col-sm-6 col-12 pb-4">
+                                    <img src="./assets/image/png/TYGA.jpeg" alt="sorry image not available"
+                                        class="w-100 b_radius_18px">
+                                    <strong class="mt-2 d-inline-block">TYGA</strong>
+                                </div>
+                                <div class="col-sm-6 col-12 py-5">
+                                    <img src="./assets/image/png/CHARLES LECLERC.jpeg" alt="sorry image not available"
+                                        class="w-100 b_radius_18px">
+                                    <strong class="mt-2 d-inline-block">CHARLES LECLERC</strong>
+                                </div>
+                                <div class="col-sm-6 col-12 py-5">
+                                    <img src="./assets/image/png/JORDAN CLARKSON.jpeg" alt="sorry image not available"
+                                        class="w-100 b_radius_18px">
+                                    <strong class="mt-2 d-inline-block">JORDAN CLARKSON</strong>
+                                </div>
+                                <div class="col-sm-6 col-12 pt-4">
+                                    <img src="./assets/image/png/RUDY.jpeg" alt="sorry image not available"
+                                        class="w-100 b_radius_18px">
+                                    <strong class="mt-2 d-inline-block">RUDY
+                                        GOBERT</strong>
+                                </div>
+                                <div class="col-sm-6 col-12 pt-4">
+                                    <img src="./assets/image/png/HANNAH STOCKING.jpeg" alt="sorry image not available"
+                                        class="w-100 b_radius_18px">
+                                    <strong class="mt-2 d-inline-block">HANNAH STOCKING</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="py-5">
+                        <h2 class="color_white fs_md ff_Hanson fw_bold text-center" data-aos="zoom-in-up"
+                            data-aos-duration="500" data-aos-easing="ease">TEAM</h2>
+
+                        <div class="row pt-5 gap-xl-0 gap-5 justify-content-xxl-start justify-content-center">
+
+                            <div class="col-lg-3 col-10 col-sm-6 col-md-4" data-aos="zoom-out-right"
+                                data-aos-duration="300" data-aos-easing="linear">
+                                <article class="text-center">
+                                    <img src="./assets/image/png/MONEYMAKER.jpeg" alt="sorry image not available"
+                                        class="w-100 rounded-circle js-tilt">
+                                    <h2 class="fs_md color_white ff_poppins fw_bold">MONEYMAKER</h2>
+                                    <h3 class="fs_sm ff_roboto fw_bold color_Nobel">CO-FOUNDER</h3>
+                                    <p class="color_Nobel fs_mini ff_play fw_bold">Artistic Integrity,
+                                        Design, and
+                                        Culture Visionary.
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="col-lg-3 col-10 col-sm-6 col-md-4" data-aos="zoom-out-right"
+                                data-aos-duration="500" data-aos-easing="linear">
+                                <article class="text-center">
+                                    <img src="./assets/image/png/ROBOTOM.png" alt="sorry image not available"
+                                        class="w-100 rounded-circle js-tilt">
+                                    <h2 class="fs_md color_white ff_poppins fw_bold">ROBOTOM</h2>
+                                    <h3 class="fs_sm ff_roboto fw_bold color_Nobel">CO-FOUNDER</h3>
+                                    <p class="color_Nobel fs_mini ff_play fw_bold">Mastermind of
+                                        Strategic
+                                        Direction and Mission.</p>
+                                </article>
+                            </div>
+                            <div class="col-lg-3 col-10 col-sm-6 col-md-4" data-aos="zoom-out-right"
+                                data-aos-duration="700" data-aos-easing="linear">
+                                <article class="text-center">
+                                    <img src="./assets/image/png/OLDKID.jpeg" alt="sorry image not available"
+                                        class="w-100 rounded-circle js-tilt">
+                                    <h2 class="fs_md color_white ff_poppins fw_bold"> OLDKID</h2>
+                                    <h3 class="fs_sm ff_roboto fw_bold color_Nobel">CO-FOUNDER</h3>
+                                    <p class="color_Nobel fs_mini ff_play fw_bold">Curator of brand
+                                        partnerships,
+                                        collaborations, and
+                                        marketing.</p>
+                                </article>
+                            </div>
+                            <div class="col-lg-3 col-10 col-sm-6 col-md-4" data-aos="zoom-out-right"
+                                data-aos-easing="linear" data-aos-duration="900">
+                                <article class="text-center">
+                                    <img src="./assets/image/png/KASHAMA.jpeg" alt="sorry image not available"
+                                        class="w-100 rounded-circle js-tilt">
+                                    <h2 class="fs_md color_white ff_poppins fw_bold">KASHAMA</h2>
+                                    <h3 class="fs_sm ff_roboto fw_bold color_Nobel">DESIGNER</h3>
+                                    <p class="color_Nobel fs_mini ff_play fw_bold">Lead digital artist
+                                        and designer
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="col-lg-3 col-10 col-sm-6 col-md-4" data-aos="zoom-out-right"
+                                data-aos-easing="linear" data-aos-duration="300">
+                                <article class="text-center">
+                                    <img src="./assets/image/png/KANEKI.jpeg" alt="sorry image not available"
+                                        class="w-100 rounded-circle js-tilt">
+                                    <h2 class="fs_md color_white ff_poppins fw_bold">KANEKI</h2>
+                                    <h3 class="fs_sm ff_roboto fw_bold color_Nobel">WEBDESIGNER</h3>
+                                    <p class="color_Nobel fs_mini ff_play fw_bold"> Web Design Wizard.A
+                                        true master
+                                        of his craft.</p>
+                                </article>
+                            </div>
+                            <div class="col-lg-3 col-10 col-sm-6 col-md-4" data-aos="zoom-out-right"
+                                data-aos-easing="linear" data-aos-duration="500">
+                                <article class="text-center">
+                                    <img src="./assets/image/png/THOMAS.jpeg" alt="sorry image not available"
+                                        class="w-100 rounded-circle js-tilt">
+                                    <h2 class="fs_md color_white ff_poppins fw_bold">THOMAS</h2>
+                                    <h3 class="fs_sm ff_roboto fw_bold color_Nobel">TOKENOMICS EXPERT</h3>
+                                    <p class="color_Nobel fs_mini ff_play fw_bold">The brains behind
+                                        token
+                                        mechanics, staking, and
+                                        smart contract deployment.</p>
+                                </article>
+                            </div>
+                            <div class="col-lg-3 col-10 col-sm-6 col-md-4" data-aos="zoom-out-right"
+                                data-aos-easing="linear" data-aos-duration="700">
+                                <article class="text-center">
+                                    <img src="./assets/image/png/LOU.jpeg" alt="sorry image not available"
+                                        class="w-100 rounded-circle js-tilt">
+                                    <h2 class="fs_md color_white ff_poppins fw_bold">LOU</h2>
+                                    <h3 class="fs_sm ff_roboto fw_bold color_Nobel">COMMUNITY MANAGER</h3>
+                                    <p class="color_Nobel fs_mini ff_play fw_bold">Queen of organization
+                                        and
+                                        structure. Without Lou,
+                                        we'd all be lost.</p>
+                                </article>
+                            </div>
+                            <div class="col-lg-3 col-10 col-sm-6 col-md-4" data-aos="zoom-out-right"
+                                data-aos-easing="linear" data-aos-duration="900">
+                                <article class="text-center">
+                                    <img src="./assets/image/png/ALHENDRIX.jpg" alt="sorry image not available"
+                                        class="w-100 rounded-circle js-tilt">
+                                    <h2 class="fs_md color_white ff_poppins fw_bold">ALHENDRIX</h2>
+                                    <h3 class="fs_sm ff_roboto fw_bold color_Nobel">NFT EXPERT</h3>
+                                    <p class="color_Nobel fs_mini ff_play fw_bold">Web Design Wizard.A
+                                        true master
+                                        of his craft.</p>
+                                </article>
+                            </div>
+                            <div class="col-lg-3 col-10 col-sm-6 col-md-4" data-aos="zoom-out-right"
+                                data-aos-easing="linear" data-aos-duration="500">
+                                <article class="text-center">
+                                    <img src="./assets/image/png/CILOOTH.jpeg" alt="sorry image not available"
+                                        class="w-100 rounded-circle js-tilt">
+                                    <h2 class="fs_md color_white ff_poppins fw_bold">CILOOTH</h2>
+                                    <h3 class="fs_sm ff_roboto fw_bold color_Nobel">DISCORD EXPERT</h3>
+                                    <p class="color_Nobel fs_mini ff_play fw_bold">Security Savant.
+                                        Destroyer of
+                                        hackers, scammers,
+                                        and bots.</p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------SECTION-7---------------->
+        <section>
+            <div class="bg_color_black mt_N1px">
+                <div class="container py-5">
+                    <div>
+                        <h2 class="text-center ff_Hanson fw_bold fs_md color_white">MODERATORS</h2>
+                        <div class="d-flex flex-column gap-4 s7_nesting py-5">
+                            <div
+                                class="row align-items-baseline justify-content-center text-center justify-content-lg-between row_gap_20px">
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>SYLVON MON</h3>
+                                    <p class="mt-1">COMMUNITY STRATEGIST & ANALYTICS LEAD</p>
+                                </div>
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>AEZEEAN</h3>
+                                    <p class="mt-1">COMMUNITY & MARKETING STRATEGY LEAD</p>
+                                </div>
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>IBW MAMBA</h3>
+                                    <p class="mt-1">COMMUNITY ENGAGEMENT LEAD</p>
+                                </div>
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>MERKY</h3>
+                                    <p class="mt-1">WHITELIST AFICIONADO</p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="row align-items-baseline justify-content-center text-center justify-content-lg-between row_gap_20px">
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>CREATEURNFT</h3>
+                                    <p class="mt-1">COMMUNITY CHARITY LEAD</p>
+                                </div>
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>AVRIL & CARLA</h3>
+                                    <p class="mt-1">SPANISH & WOMEN'S CHANNEL LEAD</p>
+                                </div>
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>CB 3700</h3>
+                                    <p class="mt-1">COMMUNITY EDUCATION LEAD</p>
+                                </div>
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>NOAH</h3>
+                                    <p class="mt-1">MARKETING & DISCORD SUPPORT</p>
+                                </div>
+                            </div>
+
+                            <div
+                                class="row align-items-baseline justify-content-center text-center justify-content-lg-between row_gap_20px">
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>GIDLY</h3>
+                                    <p class="mt-1">DESTROYER OF FUD</p>
+                                </div>
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>SAUCE</h3>
+                                    <p class="mt-1">DISCORD ENGAGEMENT</p>
+                                </div>
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>SLEEZY</h3>
+                                    <p class="mt-1">DISCORD ENGAGEMENT</p>
+                                </div>
+                                <div class="col-sm-6 col-12 col-md-4 col-lg-3">
+                                    <h3>YAMI</h3>
+                                    <p class="mt-1">DISCORD SUPPORT</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="py-5">
+                        <div class="text-center bg_color_Wild_Sand p-5 b_radius_18px">
+                            <h2 class="fs_lg color_black fw_bold ff_Hanson">Join us<span class="d-block">on Discord
+                                    !</span>
+                            </h2>
+                            <a href="#"><img src="./assets/image/png/discord_logo.png" alt="discord logo"
+                                    class="discord_logo_decor mt-3"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-----------------FOOTER----------------->
+    <footer>
+        <div class="bg_color_Whisper">
+            <div class="container">
+
+                <div class="text-center d-flex min_vh_50 align-items-center justify-content-center">
+                    <div>
+                        <a href="#"><img src="./assets/image/png/METABILLIONAIRE_ftr_logo.png" alt="logo"
+                                class="w_150px"></a>
+                        <p class="fs_mini fw_bold ff_play mt-3">META BILLIONAIRE'S NFT PROPERTY.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ------------JAVASCRIPT-------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/js/app.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- https://github.com/gijsroge/tilt.js -->
+    <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js"></script>
+    <script>
+        const tilt = $('.js-tilt').tilt()
+        tilt.on('change', function (e, transforms) { });
+    </script>
+    <script>
+        const NavBar = document.querySelector(".navbar_overlay",);
+        function OpenNav() {
+            NavBar.classList.toggle("mt_N100");
+            document.body.classList.toggle("overflow_hidden")
+
+        }
+
+    </script>
+
+</body>
+
+</html>
